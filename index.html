@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fickle Flight</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- Nav bar -->
+  <header>
+    <nav>
+      <div class="fickle-logo">
+        <img class="fickle-log" src="./assets/Fickleflight Logo.svg" alt="Fickleflight logo" />
+      </div>
+      <div class="nav-content">
+        <ul>
+          <li class="explore"><a href=""></a>Explore</li>
+          <li><a href=""></a>Search</li>
+          <li><a href=""></a>Hotels</li>
+          <li><a href=""></a>Offers</li>
+        </ul>
+
+        <img src="./assets/notification bell.svg" alt="" />
+
+        <img src="./assets/profile picture.svg" alt="" />
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h2>Let’s explore & travel the world</h4>
+        <p>Find the best destinations and the most popular stays!</p>
+    </div>
+    <div class="radio-container">
+      <div class="search-radio-sec">
+        <div class="search-radio">
+          <div class="search-flight">
+            <h5> SEARCH FLIGHTS</h4>
+          </div>
+          <div class="radio-input">
+            <input type="radio" id="return">
+            <label for="return">Return</label>
+            <input type="radio" id="one-way">
+            <label for="return">One-way</label>
+          </div>
+        </div>
+
+        <div class="flight-search">
+          <div class="flight-label">
+            <label for="">Departure</label>
+            <input class="flight-input" type="search" placeholder="Singapore (SIN)" name="" id="departure">
+          </div>
+          <div class="flight-label">
+            <label for="">Arrival</label>
+            <input class="flight-input" type="search" placeholder="Los Angeles (LA)" name="" id="arrival">
+          </div>
+          <div class="flight-label">
+            <label for="">Date</label>
+            <input class="flight-input" type="date" name="" id="date">
+          </div>
+          <div>
+            <a href="">
+              <button id="flight-button">SEARCH FLIEGHTS</button>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Content section -->
+  <section class="destination-main">
+    <div class="destination-sec">
+      <div>
+        <!-- RECENT FLIGHT SEARCH -->
+
+        <p class="recent-p">RECENT SEARCHES</p>
+        <div class="flight-sec">
+          <div class="flight-dest-con">
+            <div class="flight-dest">
+              <h4>SIN</h4>
+              <img src="./assets/Duration.svg" alt="">
+              <h4>LAX</h4>
+            </div>
+            <p>Depart on: 7 Sep 2021</p>
+          </div>
+          <div class="flight-dest-con">
+            <div class="flight-dest">
+              <h4>MY</h4>
+              <img src="./assets/Duration.svg" alt="">
+              <h4>DUB</h4>
+            </div>
+            <p>Depart on: 9 Sep 2021</p>
+          </div>
+        </div>
+
+        <!-- PREPARE YOUR TRIP SECTION -->
+
+        <p id="trip-p">Prepare for your trip</p>
+        <div class="trip-assets">
+          <a href=""><img src="./assets/Hotel.svg" alt="Hotel "></a>
+          <a href=""><img src="./assets/Attractions.svg" alt="Attractions"></a>
+          <a href=""><img src="./assets/Eats.svg" alt="Eats"></a>
+          <a href=""><img src="./assets/Commute.svg" alt="Commute"></a>
+          <a href=""><img src="./assets/Taxi.svg" alt="Taxi"></a>
+          <a href=""><img src="./assets/Movies.svg" alt="Movies"></a>
+        </div>
+
+        <!-- PLAN YOUR NEXT TRIP SECTION -->
+
+        <div class="plan-trip-sec">
+          <div class="plan-trip-con">
+            <p>Plan your next trip</p>
+            <h4>Most Popular Destinations</h4>
+          </div>
+          <div class="plan-trip-click">
+            <a href=""><img src="./assets/View all destination.svg" alt=""></a>
+          </div>
+        </div>
+
+        <!-- TRIP CARDS -->
+
+        <div class="trip-card-con">
+          <div class="trip-card">
+            <p class="trip-p">Paris <span>FROM</span> </p>
+            <h3 class="trip-h3">$699</h3>
+          </div>
+
+          <div class="trip-card1">
+            <p class="trip-p">Greece <span>FROM</span> </p>
+            <h3 class="trip-h3">$1079</h3>
+          </div>
+
+          <div class="trip-card2">
+            <p class="trip-p">Norway <span>FROM</span> </p>
+            <h3 class="trip-h3">$895</h3>
+          </div>
+
+          <div class="trip-card3">
+            <p class="trip-p">Tuscany <span>FROM</span> </p>
+            <h3 class="trip-h3">$1245</h3>
+          </div>
+        </div>
+
+        <!-- RECOMMENDED HOLIDAYS -->
+
+        <div class="rec-holidays">
+          <div class="rec-card-header">
+            <h4>
+              Recommended Holidays 
+              <span>
+                <a href=""><img src="./assets/Frame 701.svg" alt=""></a>
+              </span>
+            </h4>
+          </div>
+
+          <div class="rec-card-con">
+            <div class="rec-card">
+              <img src="./assets/BaliImage.svg" alt="">
+              
+              <div class="card-label">
+                <div>
+                  <p>Bali <br> <span>4D3N</span></p>
+                </div>
+                <div>
+                  <h2>$899</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="rec-card">
+              <img src="./assets/SwitzerlandImage.svg" alt="">
+              
+              <div class="card-label">
+                <div>
+                  <p>Swiss <br> <span>6D5N</span></p>
+                </div>
+                <div>
+                  <h2>$900</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="rec-card">
+              <img src="./assets/BoracayImage.svg" alt="">
+              
+              <div class="card-label">
+                <div>
+                  <p>Boracay <br> <span>5D4N</span></p>
+                </div>
+                <div>
+                  <h2>$699</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="rec-card">
+              <img src="./assets/PalawanImage.svg" alt="">
+              
+              <div class="card-label">
+                <div>
+                  <p>Palawan <br> <span>4D3N</span></p>
+                </div>
+                <div>
+                  <h2>$789</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- POPULAR STAYS -->
+
+        <div class="popular-stays">
+          <div class="rec-card-header">
+            <h4>
+              Popular Stays 
+              <span>
+                <a href=""><img src="./assets/View all stays button.svg" alt=""></a>
+              </span>
+            </h4>
+          </div>
+
+          <div class="popular-stays-con">
+            
+            <div class="stay-border">
+                <img src="./assets/Matterhorn Suites Image.svg" alt="">
+                <p>
+                  Entire bungalow
+                  <span>
+                    <a href=""><img src="./assets/video.svg" alt=""></a>
+                  </span>
+                </p>
+                <h4>Matterhorn Suites</h4>
+                <h5>$575/night</h5>
+                <h3>
+                  <span><img src="./assets/Vector.svg" alt=""> 4.9</span>
+                  (60 reviews) 
+                </h3>
+                <div class="stay-button">
+                  <button>MORE DETAILS</button>
+                </div>
+              </div>
+
+              <div class="stay-border">
+                <img src="./assets/Discovery Shores Image.svg" alt="">
+                <p>
+                  2-Story beachfront suite
+                  <span>
+                    <a href=""><img src="./assets/video.svg" alt=""></a>
+                  </span>
+                </p>
+                <h4>Discovery Shores</h4>
+                <h5>$360/night</h5>
+                <h3>
+                  <span><img src="./assets/Vector.svg" alt=""> 4.8</span>
+                  (116 reviews) 
+                </h3>
+                <div class="stay-button">
+                  <button>MORE DETAILS</button>
+                </div>
+              </div>
+
+              <div class="stay-border">
+                <img src="./assets/Arctic Hut Image.svg" alt="">
+                <p>
+                  Single deluxe hut
+                  <span>
+                    <a href=""><img src="./assets/video.svg" alt=""></a>
+                  </span>
+                </p>
+                <h4>Arctic Hut</h4>
+                <h5>$420/night</h5>
+                <h3>
+                  <span><img src="./assets/Vector.svg" alt=""> 4.7</span>
+                  (78 reviews) 
+                </h3>
+                <div class="stay-button">
+                  <button>MORE DETAILS</button>
+                </div>
+              </div>
+
+              <div class="stay-border">
+                <img src="./assets/Lake Louise Image.svg" alt="">
+                <p>
+                  Deluxe King Room
+                  <span>
+                    <a href=""><img src="./assets/video.svg" alt=""></a>
+                  </span>
+                </p>
+                <h4>Lake Louise Inn</h4>
+                <h5>$244/night</h5>
+                <h3>
+                  <span><img src="./assets/Vector.svg" alt=""> 4.6</span>
+                  (63 reviews) 
+                </h3>
+                <div class="stay-button">
+                  <button>MORE DETAILS</button>
+                </div>
+              </div>      
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <footer>
+    <div class="subscribe-section">
+      <div class="subscribe-con">
+        <div>
+          <p>SUBSCRIBE TO OUR NEWSLETTER</p>
+          <h3>Get weekly updates</h3>
+        </div>
+        <div class="subscribe-form">
+          <h4>Fill in your details to join the party!</h4>
+          <input type="text" name="" id="" placeholder="Your name">
+          <input type="email" name="" id="" placeholder="Email address">
+          <button type="submit">SUBMIT</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-details">
+        <img src="./assets/Logo.svg" alt="">
+        <p>
+          Fickle Flight is your one-stop travel portal. 
+          We offer hassle free flight and hotel bookings. 
+          We also have all your flight needs in you online shop.
+        </p>
+        <img src="./assets/entypo-social_facebook-with-circle.svg" alt="">
+        <img src="./assets/entypo-social_instagram-with-circle.svg" alt="">
+        <img src="./assets/entypo-social_twitter-with-circle.svg" alt="">
+      </div>
+      <div class="footer-links">
+        <div>
+          <h5>Company</h5>
+          <a href="">About Us</a>
+          <a href="">News</a>
+          <a href="">Careers</a>
+          <a href="">How we work</a>
+        </div>
+        <div>
+          <h5>Support</h5>
+          <a href="">Account</a>
+          <a href="">Support Center</a>
+          <a href="">FAQ</a>
+          <a href="">Accessibility</a>
+        </div>
+        <div>
+          <h5>More</h5>
+          <a href="">Covid Advisory</a>
+          <a href="">Airline Fees</a>
+          <a href="">Tips</a>
+          <a href="">Quarantine Rules</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
